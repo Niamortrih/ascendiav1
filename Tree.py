@@ -25,6 +25,7 @@ class Tree(object):
             self.posvln = "OOP"
             self.eqs = 1 - self.spot.eqs.T
         self.data = []
+        self.data.append(pos)
 
 
     def make(self):
