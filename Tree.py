@@ -33,7 +33,7 @@ class Tree(object):
         self.tabhero = str_to_tab(self.strhero)
         self.tabvln = str_to_tab(self.strvln)
         if sum(self.tabhero) < 5 or sum(self.tabvln) < 5:
-            print(self.node,"NO")
+            # print(self.node,"NO")
             return
         set_range(self.connection,self.poshero,self.strhero)
         set_range(self.connection, self.posvln, self.strvln)

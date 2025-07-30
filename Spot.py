@@ -17,7 +17,7 @@ class Spot(object):
         r = self.connection.command(line='load_tree "' + self.filename + '"')
         board = os.path.basename(self.filename).split(self.parser.config["separator"])[0]
         board = board.split(".")[0]
-        print(board)
+        # print(board)
         r = self.connection.command(line="set_board " + board)
         self.stroop = get_range(self.connection, "OOP", "r:0")
         self.taboop = str_to_tab(self.stroop)

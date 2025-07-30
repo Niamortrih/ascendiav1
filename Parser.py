@@ -27,6 +27,7 @@ class Parser(object):
         self.bb = 20
 
     def make(self):
+        print("START PARSING", self.folder)
         counter = 1
         file_paths = []
 
@@ -45,7 +46,6 @@ class Parser(object):
             counter += 1
             if counter % 200 == 0:
                 self.save_temp()
-        self.save()
 
 
     def save(self):

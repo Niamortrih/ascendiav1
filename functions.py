@@ -46,8 +46,8 @@ def get_eqs(connection, taboop):
     set_range(connection, "IP", strip)
 
     for i in range(1326):
-        if i%100==0:
-            print(i)
+        # if i%100==0:
+        #     print(i)
         if taboop[i] > -0.5:
             oop[last * 2] = ord('0')
             oop[i * 2] = ord('1')

@@ -17,6 +17,5 @@ connection = Solver(solver=config["solver"])
 
 parser = Parser(connection, config)
 
-parser.hand_by_spot = 150
 parser.make()
 parser.save()
