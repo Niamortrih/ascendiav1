@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler
 
 # Liste des fichiers .npz à charger
 dataset_files = [
-    "dataset1.npz"
+    "dataset_save.npz"
     # Ajoute d'autres fichiers ici
 ]
 

@@ -37,15 +37,19 @@ class Parser(object):
                 file_paths.append(os.path.join(dirpath, filename))
 
         random.shuffle(file_paths)
+        nbfile = len(file_paths)
 
         for file_path in file_paths:
-            #filename = os.path.basename(file_path)
-            print("----- SPOT", counter, ":", file_path, "-----")
-            spot = Spot(file_path, self)
-            spot.make()
-            counter += 1
-            if counter % 200 == 0:
-                self.save_temp()
+            try:
+                print("----- SPOT", counter, "/", nbfile, ":", file_path, "-----")
+                spot = Spot(file_path, self)
+                spot.make()
+                counter += 1
+                if counter % 100 == 0:
+                    self.save_temp()
+            except Exception as e:
+                print("Erreur :", e)
+                traceback.print_exc()
 
 
     def save(self):
