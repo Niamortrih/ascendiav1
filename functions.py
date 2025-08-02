@@ -41,6 +41,7 @@ def get_eqs(connection, taboop):
     oop = bytearray(b'0 ' * 1325 + b'0')
     last = 0
     bigtab = np.zeros((1326, 1326), dtype=np.float32)
+    return bigtab + 0.5
 
     strip = ' '.join(['1'] * 1326)
     set_range(connection, "IP", strip)
@@ -164,5 +165,26 @@ def get_rivers(connection, n, pos):
         tab.append(rng)  # on accumule les lignes
 
     return np.array(tab, dtype=np.float32)  # shape (n, 1326)
+
+import numpy as np
+
+def get_std_rivers(arr: np.ndarray):
+    # Écart-type de chaque ligne en ignorant les NaN
+    row_stds = np.nanstd(arr, axis=1)
+
+    # Supprimer les NaN éventuels (lignes vides par exemple)
+    row_stds = row_stds[~np.isnan(row_stds)]
+
+    if len(row_stds) == 0:
+        return np.nan, np.nan  # Aucun calcul possible
+
+    # Moyenne des écarts-types
+    mean_std = np.nanmean(row_stds)
+
+    # Écart-type des écarts-types
+    std_of_stds = np.nanstd(row_stds)
+
+    return mean_std, std_of_stds
+
 
 

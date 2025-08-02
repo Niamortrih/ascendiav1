@@ -47,6 +47,7 @@ class Tree(object):
 
         self.sepvln = split_range(self.tabvln, self.pondervln, 12)
         self.rivers = get_rivers(self.connection, 200, self.poshero)
+        self.make_rivers()
         self.make_targets()
 
         self.make_hands()
@@ -101,6 +102,15 @@ class Tree(object):
                 self.actions.append(child)
                 self.bets.append(bet)
                 self.evs.append(str_to_tab(res[0]))
+
+
+    def make_rivers(self):
+        moy,std = get_std_rivers(self.rivers.T)
+        # if self.node == "r:0":
+        #     print("MOYENNE:", moy)
+        #     print("ECART TYPE:", std)
+        self.data.append(moy)
+        self.data.append(std)
 
 
 

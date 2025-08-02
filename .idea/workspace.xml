@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3492220a-9df8-46be-bed5-4fa98e2cd6e1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iasoft.py" beforeDir="false" afterPath="$PROJECT_DIR$/iasoft.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spot.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +32,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DatabaseAscend" />
   </component>
   <component name="RunManager" selected="Python.main">
     <configuration name="iasoft" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -126,38 +128,50 @@
       <option name="project" value="LOCAL" />
       <updated>1753886080710</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add Counter&#10;Correct Errors">
+      <created>1753941708832</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1753941708832</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="delete print" />
     <MESSAGE value="add position" />
-    <option name="LAST_COMMIT_MESSAGE" value="add position" />
+    <MESSAGE value="Add Counter&#10;Correct Errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Counter&#10;Correct Errors" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="978" y="123" key="CommitChangelistDialog2" timestamp="1753886080177">
+    <state x="978" y="123" key="CommitChangelistDialog2" timestamp="1753941708288">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="978" y="123" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1753886080177" />
-    <state width="1899" height="396" key="GridCell.Tab.0.bottom" timestamp="1753941675463">
+    <state x="978" y="123" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1753941708288" />
+    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1753943348172">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="396" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1753941675463" />
-    <state width="1899" height="396" key="GridCell.Tab.0.center" timestamp="1753941675462">
+    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1753943348172" />
+    <state width="1899" height="396" key="GridCell.Tab.0.bottom" timestamp="1754143255675">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="396" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1753941675462" />
-    <state width="1899" height="396" key="GridCell.Tab.0.left" timestamp="1753941675462">
+    <state width="1899" height="396" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1754143255675" />
+    <state width="1899" height="396" key="GridCell.Tab.0.center" timestamp="1754143255675">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="396" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1753941675462" />
-    <state width="1899" height="396" key="GridCell.Tab.0.right" timestamp="1753941675462">
+    <state width="1899" height="396" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1754143255675" />
+    <state width="1899" height="396" key="GridCell.Tab.0.left" timestamp="1754143255675">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="396" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1753941675462" />
-    <state x="552" y="242" key="Vcs.Push.Dialog.v2" timestamp="1753886082722">
+    <state width="1899" height="396" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1754143255675" />
+    <state width="1899" height="396" key="GridCell.Tab.0.right" timestamp="1754143255675">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="242" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1753886082722" />
+    <state width="1899" height="396" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1754143255675" />
+    <state x="552" y="242" key="Vcs.Push.Dialog.v2" timestamp="1753941711912">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="242" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1753941711912" />
   </component>
 </project>
