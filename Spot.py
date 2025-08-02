@@ -11,6 +11,7 @@ class Spot(object):
         self.filename = filename
         self.parser = parser
         self.connection = parser.connection
+        self.lines = 0
 
 
     def make(self):

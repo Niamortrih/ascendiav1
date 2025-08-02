@@ -41,7 +41,6 @@ def get_eqs(connection, taboop):
     oop = bytearray(b'0 ' * 1325 + b'0')
     last = 0
     bigtab = np.zeros((1326, 1326), dtype=np.float32)
-    return bigtab + 0.5
 
     strip = ' '.join(['1'] * 1326)
     set_range(connection, "IP", strip)

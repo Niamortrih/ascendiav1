@@ -46,7 +46,8 @@ class Tree(object):
         self.make_range_vs_range(5)
 
         self.sepvln = split_range(self.tabvln, self.pondervln, 12)
-        self.rivers = get_rivers(self.connection, 200, self.poshero)
+        self.rivers = get_rivers(self.connection, 500, self.poshero)
+        self.riversvln = get_rivers(self.connection, 500, self.posvln)
         self.make_rivers()
         self.make_targets()
 
@@ -106,11 +107,18 @@ class Tree(object):
 
     def make_rivers(self):
         moy,std = get_std_rivers(self.rivers.T)
-        # if self.node == "r:0":
-        #     print("MOYENNE:", moy)
-        #     print("ECART TYPE:", std)
         self.data.append(moy)
         self.data.append(std)
+        if self.node == "r:0":
+            print("HERO MOYENNE:", moy)
+            print("HERO ECART TYPE:", std)
+        moy, std = get_std_rivers(self.riversvln.T)
+        self.data.append(moy)
+        self.data.append(std)
+        if self.node == "r:0":
+            print("VLN MOYENNE:", moy)
+            print("VLN ECART TYPE:", std)
+
 
 
 

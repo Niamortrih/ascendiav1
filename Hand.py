@@ -58,6 +58,7 @@ class Hand(object):
             self.parser.names.append(name)
             self.parser.X.append(inputs)
             self.parser.y.append(target)
+            self.spot.lines += 1
             # if random.randint(0,200) == 137:
             #     print(name, inputs, target)
 

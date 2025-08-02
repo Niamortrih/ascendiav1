@@ -44,6 +44,7 @@ class Parser(object):
                 print("----- SPOT", counter, "/", nbfile, ":", file_path, "-----")
                 spot = Spot(file_path, self)
                 spot.make()
+                print("LINES DONE :", spot.lines)
                 counter += 1
                 if counter % 100 == 0:
                     self.save_temp()
