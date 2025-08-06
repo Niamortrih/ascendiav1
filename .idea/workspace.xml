@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3492220a-9df8-46be-bed5-4fa98e2cd6e1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1754507058960</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Modif func">
+      <created>1754512674531</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1754512674531</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -185,13 +193,14 @@
     <MESSAGE value="Add Moy and Std for rivers" />
     <MESSAGE value="Add Lines done" />
     <MESSAGE value="Change Config Folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change Config Folder" />
+    <MESSAGE value="Modif func" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modif func" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="978" y="123" key="CommitChangelistDialog2" timestamp="1754507047438">
+    <state x="978" y="123" key="CommitChangelistDialog2" timestamp="1754512673977">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="978" y="123" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1754507047438" />
+    <state x="978" y="123" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1754512673977" />
     <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1754478535968">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -212,9 +221,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="409" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1754511528927" />
-    <state x="552" y="242" key="Vcs.Push.Dialog.v2" timestamp="1754507061011">
+    <state x="552" y="242" key="Vcs.Push.Dialog.v2" timestamp="1754512676914">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="242" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1754507061011" />
+    <state x="552" y="242" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1754512676914" />
   </component>
 </project>
