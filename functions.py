@@ -146,11 +146,11 @@ def blocker(hand_id, range_weights, inter):
 def get_random_river(connection):
     r = connection.command(line="show_children r:0:c:c")
     # print_lines(r)
-    nbt = len(r) / 7
+    nbt = (len(r)-1) / 7
     t = random.randint(0,nbt-1)
     turn = r[t*7+1] + ":c:c"
     r = connection.command(line="show_children " + turn)
-    nbt = len(r) / 7
+    nbt = (len(r)-1) / 7
     t = random.randint(0, nbt - 1)
     river = r[t * 7 + 1]
     return river
