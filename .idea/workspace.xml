@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3492220a-9df8-46be-bed5-4fa98e2cd6e1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iasoft.py" beforeDir="false" afterPath="$PROJECT_DIR$/iasoft.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +32,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Generative Art/RogueLikeGrille" />
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.iasoft">
     <configuration name="iasoft" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AscendIAV1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -98,8 +98,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
         <item itemvalue="Python.iasoft" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.iatest" />
       </list>
     </recent_temporary>
@@ -197,10 +197,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Modif func" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="978" y="123" key="CommitChangelistDialog2" timestamp="1754512673977">
+    <state x="978" y="123" key="CommitChangelistDialog2" timestamp="1754513018672">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="978" y="123" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1754512673977" />
+    <state x="978" y="123" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1754513018672" />
     <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1754478535968">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -221,9 +221,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="409" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1754511528927" />
-    <state x="552" y="242" key="Vcs.Push.Dialog.v2" timestamp="1754512676914">
+    <state x="552" y="242" key="Vcs.Push.Dialog.v2" timestamp="1754513021045">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="242" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1754512676914" />
+    <state x="552" y="242" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1754513021045" />
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1754649238349">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1754649238349" />
   </component>
 </project>

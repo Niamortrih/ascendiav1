@@ -1,3 +1,4 @@
+import os
 import numpy as np
 from sklearn.ensemble import HistGradientBoostingRegressor
 from sklearn.model_selection import train_test_split
@@ -5,11 +6,11 @@ from sklearn.metrics import mean_squared_error
 from sklearn.preprocessing import StandardScaler
 import joblib
 
-# Liste des fichiers .npz à charger
-dataset_files = [
-    "dataset1.npz"
-    # Ajoute d'autres fichiers ici
-]
+# Spécifier le dossier contenant les fichiers .npz
+dataset_folder = "datasets"
+
+# Liste des fichiers .npz dans le dossier
+dataset_files = [os.path.join(dataset_folder, f) for f in os.listdir(dataset_folder) if f.endswith(".npz")]
 
 # Initialisation des listes pour stocker les données cumulées
 X_list = []
@@ -30,21 +31,14 @@ names = np.concatenate(names_list, axis=0)
 
 print(f"X shape: {X.shape}, y shape: {y.shape}, names shape: {names.shape}")
 
-# # Split train/test (on split aussi les noms)
-# X_train, X_test, y_train, y_test, names_train, names_test = train_test_split(
-#     X, y, names, test_size=0.2, random_state=42
-# )
-
-
 n_total = len(X)
 n_test = int(n_total * 0.2)
 n_train = n_total - n_test
 
-# Split manuel : 80 % pour l'entraînement, 20 % pour le test (à la fin)
+# Split manuel : 80 % pour l'entraînement, 20 % pour le test
 X_train, X_test = X[:n_train], X[n_train:]
 y_train, y_test = y[:n_train], y[n_train:]
 names_train, names_test = names[:n_train], names[n_train:]
-
 
 # Standardisation
 scaler = StandardScaler()
